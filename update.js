@@ -3,12 +3,6 @@ const axios = require("axios");
 const args = require("minimist")(process.argv.slice(2));
 require("dotenv").config();
 
-var wp = new WPAPI({
-	endpoint: "http://199.250.204.45/~seldev/wp-json",
-	username: `selectgroup`,
-	password: `Its23452!@#`
-});
-
 // "ach_automatic_debit_from_checking"
 // "architectural_change_application"
 //  "complaint_procedure_and_process"
